@@ -5,6 +5,7 @@ A simple form field for selecting font-awesome classes in the CMS.
 ## Features
 * The latest version of font-awesome
 * Easy to integrate into any project
+* Option to use CDN for loading assets (Defaults to use local)
 
 ## Installation
 

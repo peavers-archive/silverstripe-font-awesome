@@ -1,6 +1,10 @@
 ---
 Name: font-awesome
 ---
+SiteConfig:
+  extensions:
+   - FASettings
+
 ContentController:
   extensions:
    - FAInjector
