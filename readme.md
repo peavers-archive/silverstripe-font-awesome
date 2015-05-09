@@ -1,5 +1,5 @@
 ## Pillaged
-Shamefully pillaged from https://github.com/thisisbd/silverstripe-fontawesome-iconpickerfield and lightly modified to better suit our environment and preferred coding style.   
+Shamefully pillaged from https://github.com/thisisbd/silverstripe-fontawesome-iconpickerfield and further modified/extended to better suit our environment and preferred coding style.   
 
 ## Synopsis
 A simple form field for selecting font-awesome classes in the CMS.
