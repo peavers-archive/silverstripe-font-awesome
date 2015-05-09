@@ -1,5 +1,7 @@
-## Synopsis
+## Pillaged
+Shamefully pillaged from https://github.com/thisisbd/silverstripe-fontawesome-iconpickerfield and lightly modified to better suit our environment and preferred coding style.   
 
+## Synopsis
 A simple form field for selecting font-awesome classes in the CMS.
 
 ## Features
@@ -16,7 +18,6 @@ Ideally composer will be used to install this module.
 ```composer require "moe/font-awesome:@stable"```
 
 ## Usage
-
 A basic working example, and the following to any class you want the field on; 
 
 ```php
@@ -43,3 +44,4 @@ Then simple include in the template
 ```
 
 Alternatively you can just use the font family via CSS.
+
