@@ -1,0 +1,6 @@
+---
+Name: font-awesome
+---
+ContentController:
+  extensions:
+   - FAInjector
