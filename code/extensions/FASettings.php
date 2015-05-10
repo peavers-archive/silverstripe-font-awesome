@@ -16,7 +16,7 @@ class FASettings extends DataExtension
     public function updateCMSFields(FieldList $fields)
     {
         $fields->addFieldsToTab('Root.FontAwesome', array(
-            OptionsetField::create('UseCDN', 'CDN for loading assets?')
+            OptionsetField::create('UseCDN', 'CDN for loading frontend assets?')
                 ->setDescription('Depending on hosting, your viewers may or may not get better performance using a CDN')
                 ->setSource(array(
                     true  => 'Yes',
