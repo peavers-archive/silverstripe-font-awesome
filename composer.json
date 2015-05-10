@@ -2,8 +2,7 @@
   "name": "moe/font-awesome",
   "description": "A simple form field for selecting font-awesome classes in the CMS.",
   "keywords": [
-    "google",
-    "analytics"
+    "font-awesome"
   ],
   "license": "BSD-3-Clause",
   "authors": [
