@@ -10,11 +10,6 @@ class FASettings extends DataExtension
         'UseThemeCSS' => 'boolean(1)',
     );
 
-    private static $defaults = array(
-        'UseCDN'      => false,
-        'UseThemeCSS' => false,
-    );
-
     public function updateCMSFields(FieldList $fields)
     {
         $fields->addFieldsToTab('Root.FontAwesome', array(

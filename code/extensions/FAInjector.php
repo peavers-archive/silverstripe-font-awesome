@@ -5,7 +5,7 @@
  */
 class FAInjector extends Extension
 {
-    public function onBeforeInit()
+    public function onAfterInit()
     {
         if (SiteConfig::current_site_config()->UseThemeCSS) {
             return;
