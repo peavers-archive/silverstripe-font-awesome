@@ -8,7 +8,7 @@ A simple form field for selecting font-awesome classes in the CMS.
 * The latest version of font-awesome
 * Easy to integrate into any project
 * Option to use CDN for loading assets (Defaults to use local)
-* Injects font-awesome.css into the frontend - so remove it from your project build
+* Injects font-awesome.css into the frontend (Can disable in settings)
 
 ## Installation
 
