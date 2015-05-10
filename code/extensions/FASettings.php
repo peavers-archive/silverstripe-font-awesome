@@ -11,8 +11,8 @@ class FASettings extends DataExtension
     );
 
     private static $defaults = array(
-        'UseCDN'      => 'No',
-        'UseThemeCSS' => 'No',
+        'UseCDN'      => false,
+        'UseThemeCSS' => false,
     );
 
     public function updateCMSFields(FieldList $fields)
