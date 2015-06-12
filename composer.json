@@ -1,8 +1,11 @@
 {
   "name": "moe/font-awesome",
   "description": "A simple form field for selecting font-awesome classes in the CMS.",
+  "homepage": "https://github.com/peavers/silverstripe-font-awesome.git",
   "keywords": [
-    "font-awesome"
+    "silverstripe",
+    "font-awesome",
+    "icons"
   ],
   "license": "BSD-3-Clause",
   "authors": [
