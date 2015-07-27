@@ -16,10 +16,10 @@ Ideally composer will be used to install this module.
 ## Screen shots
 
 ### Font awesome icon view
-![Font awesome icon]( "Colour swabs")
+![Font awesome icon](https://raw.githubusercontent.com/peavers/silverstripe-font-awesome/master/images/screens/font-awesome-icons.png "Icons")
 ---------------------------------------
 ### Filter view
-![Filter]( "Colour filter")
+![Filter](https://raw.githubusercontent.com/peavers/silverstripe-font-awesome/master/images/screens/font-awesome-filter.png "Filter")
 
 
 ## Usage
