@@ -1,14 +1,6 @@
 ---
 Name: font-awesome
-After:
-  - 'framework/*'
-  - 'cms/*'
 ---
-
-SiteConfig:
-  extensions:
-   - FASettings
-
 ContentController:
   extensions:
-   - FAInjector
+   - FontAwesomeControllerExtension

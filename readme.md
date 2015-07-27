@@ -1,14 +1,9 @@
-## Pillaged
-Shamefully pillaged from https://github.com/thisisbd/silverstripe-fontawesome-iconpickerfield and further modified/extended to better suit our environment and preferred coding style.   
-
 ## Synopsis
-A simple form field for selecting font-awesome classes in the CMS.
+Provides a field to easily pick font-awesome icons
 
 ## Features
-* The latest version of font-awesome
-* Easy to integrate into any project
-* Option to use CDN for loading assets (Defaults to use local)
-* Injects font-awesome.css into the frontend (Can disable in settings)
+* Easily pick icons to be used anywhere in the frontend
+* Can filter on icon name
 
 ## Installation
 
@@ -18,31 +13,40 @@ Make sure you're not double loading the css/fonts with a theme.
 Ideally composer will be used to install this module. 
 ```composer require "moe/font-awesome:@stable"```
 
+## Screen shots
+
+### Font awesome icon view
+![Font awesome icon]( "Colour swabs")
+---------------------------------------
+### Filter view
+![Filter]( "Colour filter")
+
 ## Usage
 A basic working example, and the following to any class you want the field on; 
 
 ```php
+    private static $db = array(
+        'Icon' => 'Varchar(255)',
+    );
 
-private static $db = array(
-   'Icon'  => 'Varchar',
-);
-
-public function getCMSFields()
+    public function getCMSFields()
     {
         $fields = parent::getCMSFields();
 
-        $fields->addFieldsToTab('Root.ButtonDetails', array(
-            FontAwesomeField::create("Icon", "Font Awesome icon"),
+        $fields->addFieldsToTab('Root.Main', array(
+           FontAwesomeField::create("Icon", "Font Awesome icon")
         ));
 
         return $fields;
     }
 ```
 
-Then simple include in the template
+Then simple include in the template where you want the icon placed
 ```html
- <i class="fa $Icon"></i>
+    <i class="fa $Icon"></i>  
 ```
 
-Alternatively you can just use the font family via CSS.
+The controller extension should make sure you've got access to the icons so you don't need to double up the CSS file. 
 
+## Libraries used/modified
+* Font Awesome Icon Picker
