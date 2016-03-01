@@ -52,4 +52,4 @@ The controller extension should make sure you've got access to the icons so you 
 Got you covered, checkout [color-swabs](https://github.com/peavers/silverstripe-color-swabs)!
 
 ## Libraries used/modified
-* Font Awesome Icon Picker
+* Font Awesome Icon Picker 4.5
