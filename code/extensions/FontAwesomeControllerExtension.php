@@ -1,5 +1,8 @@
 <?php
 
+use SilverStripe\Core\Extension;
+use SilverStripe\View\Requirements;
+
 /**
  * Class FontAwesomeControllerExtension
  */
