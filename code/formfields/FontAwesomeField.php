@@ -1,5 +1,10 @@
 <?php
 
+namespace SilverStripe\FontAwesome;
+
+use SilverStripe\Forms\TextField;
+use SilverStripe\View\Requirements;
+
 /**
  * Class FontAwesomeField
  */
@@ -23,7 +28,6 @@ class FontAwesomeField extends TextField
         $this->addExtraClass('form-control icp icp-auto');
 
         //Libraries
-        Requirements::css(FONT_AWESOME_DIR . '/css/lib/bootstrap.min.css');
         Requirements::css(FONT_AWESOME_DIR . '/css/lib/font-awesome.min.css');
         Requirements::css(FONT_AWESOME_DIR . '/css/lib/font-awesome-iconpicker.min.css');
         Requirements::javascript(FONT_AWESOME_DIR . '/js/lib/font-awesome-iconpicker.min.js');

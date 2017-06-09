@@ -1,9 +1,3 @@
-* {
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-}
-
 .iconpicker-popover.popover {
     width: 512px;
 }
